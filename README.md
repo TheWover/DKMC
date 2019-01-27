@@ -5,6 +5,8 @@ Why it's called don't kill my cat? Since I suck at finding names for tools, I de
 
 Presentation on how it works internally can be found here: https://github.com/Mr-Un1k0d3r/DKMC/blob/master/DKMC%20presentation%202017.pdf
 
+TheWover TODO: Borrow the generator. Write C# loaders. Use to embed icons in stagers that contains payload. Use a stager that uses method delegate and Task to avoid importing CreateThread.
+
 # Basic Flow
 * Generate shellcode (meterpreter / Beacon)
 * Embed the obfuscated shellcode inside the image
